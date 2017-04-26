@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/color_white"
+    android:id="@+id/activity_welcome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:fitsSystemWindows="true"
+    tools:context="com.mikeoye.gitter.WelcomeActivity">
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center|top"
+        android:orientation="vertical"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:layout_width="@dimen/gitter_icon_size"
+            android:layout_height="@dimen/gitter_icon_size"
+            android:scaleType="centerCrop"
+            android:src="@drawable/gitter_icon"/>
+
+        <TextView
+            android:text="@string/hello_there"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/LargeHelloText" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginBottom="40dp"/>
+
+        <TextView
+            android:paddingStart="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/app_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_get_started"
+        android:text="@string/get_started"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_state_list"
+        style="@style/WelcomeButtonStyle" />
+
+</FrameLayout>

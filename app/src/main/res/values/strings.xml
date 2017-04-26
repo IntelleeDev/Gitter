@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Gitter</string>
+
+    <string name="hello_blank_fragment">Hello</string>
+    <string name="hello_there">Hello! there</string>
+    <string name="get_started">Get Started</string>
+
+    <string name="app_description">
+        Welcome to Gitter\n\n Find GitHubers around your location,
+        see who\'s really trending\n\n and keep track of their popular repositories</string>
+
+    <string name="share">Share</string>
+
+    <string name="view_profile_on_github">View full profile on Github</string>
+
+    <string name="featured_gitter">Featured Gitter</string>
+
+    <string name="view_profile">View profile</string>
+
+    <string name="is_first_time_launch">true</string>
+
+</resources>

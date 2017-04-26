@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:paddingStart="12dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="83dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginRight="16dp"
+        android:id="@+id/avatar_image_iv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/gitter_username_tv"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="@color/color_white"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            fontPath="fonts/Raleway-Medium.ttf"/>
+
+        <View
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/round_divider_lines"/>
+
+    </LinearLayout>
+
+</GridLayout>
