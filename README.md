@@ -1,3 +1,3 @@
 # Gitter
 
-Solution challenge to the Andela ALC Assessment
+Solution to the Andela ALC Assessment
